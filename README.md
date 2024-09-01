@@ -19,6 +19,7 @@ This project is the backend for a chess application, developed as a coding assig
 - **Express**: Web framework for building the API.
 - **Socket.io**: For real-time communication.
 - **TypeScript**: For static type checking and improved code quality.
+- **React-Chess**: [Main code logic](https://github.com/TalhaAwan/react-chess)
 
 ## Setup
 
