@@ -31,7 +31,7 @@ This project is the backend for a chess application, developed as a coding assig
 2. **Navigate to the Project Directory**
 
    ```bash
-   cd chess-backend
+   cd codeme-assignment-backend
    ```
 
 3. **Install Dependencies**
