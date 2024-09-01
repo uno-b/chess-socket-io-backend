@@ -59,6 +59,12 @@ This project is the backend for a chess application, developed as a coding assig
    yarn start
    ```
 
+## Deployment
+
+Frontend: https://codeme-assignment.vercel.app/
+(2 players required to play)
+Backend: Deployed on Google Run.
+
 ## Known Issues
 
 - Only white's perspective is currently supported for both players.
