@@ -9,9 +9,18 @@ const socketHandler = (io: Server) => {
       gameManager.addPlayerToQueue(socket);
     });
 
-    socket.on('makeMove', ({ gameId, move }: { gameId: string; move: any }) => {
-      gameManager.makeMove(gameId, socket.id, move);
-    });
+    socket.on(
+      'makeMove',
+      ({
+        gameId,
+        move,
+      }: {
+        gameId: string;
+        move: { source: number; dest: number };
+      }) => {
+        gameManager.makeMove(gameId, socket, move);
+      }
+    );
 
     socket.on('disconnect', () => {
       console.log('User disconnected:', socket.id);
