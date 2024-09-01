@@ -46,7 +46,7 @@ function createGame(player1: Socket, player2: Socket): string {
 
 function addPlayerToQueue(socket: Socket): void {
   if (waitingPlayer) {
-    if (socket === waitingPlayer.id) return;
+    if (socket.id === waitingPlayer.id) return;
 
     createGame(waitingPlayer, socket);
     waitingPlayer = null;
