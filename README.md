@@ -1,6 +1,6 @@
 # Chess Backend
 
-This project is the backend for a chess application, developed as a coding assignment for CodeMe by Unumandakh Bayandelger.
+This project is the backend for a chess application, developed as a coding assignment by Unumandakh Bayandelger.
 
 ## Folder Structure
 
@@ -26,13 +26,13 @@ This project is the backend for a chess application, developed as a coding assig
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-repo/chess-backend.git
+   git clone https://github.com/your-repo/chess-socket-io-backend.git
    ```
 
 2. **Navigate to the Project Directory**
 
    ```bash
-   cd codeme-assignment-backend
+   cd chess-socket-io-backend
    ```
 
 3. **Install Dependencies**
@@ -62,7 +62,7 @@ This project is the backend for a chess application, developed as a coding assig
 
 ## Deployment
 
-Frontend: https://codeme-assignment.vercel.app/
+Frontend: https://chess-socket-io.vercel.app/
 (2 players required to play)
 Backend: Deployed on Google Run.
 
